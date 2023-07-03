@@ -2,7 +2,7 @@ package io.janet.command.test;
 
 
 import io.janet.Command;
-import io.reactivex.functions.Function;
+import io.reactivex.rxjava3.functions.Function;
 
 public class FilterContract<T extends Command> extends BaseContract {
 

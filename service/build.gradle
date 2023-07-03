@@ -7,5 +7,5 @@ compileJava {
 }
 
 dependencies {
-    api 'com.github.janet-io:janet:2.0.0'
+    api "com.github.corewillsoft:janet:3.0.0"
 }

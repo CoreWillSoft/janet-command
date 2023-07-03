@@ -2,7 +2,7 @@ package io.janet.command.test;
 
 
 import io.janet.Command;
-import io.reactivex.functions.Function;
+import io.reactivex.rxjava3.functions.Function;
 
 public abstract class Contract {
 
@@ -26,7 +26,7 @@ public abstract class Contract {
     public boolean check(Command command) {
         try {
             return predicate.apply(command);
-        } catch (Exception e) {
+        } catch (Throwable e) {
             return false;
         }
     }
